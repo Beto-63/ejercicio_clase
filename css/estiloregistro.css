@@ -1,0 +1,30 @@
+header {
+  text-align: center;
+}
+body {
+  background-color: pink;
+}
+
+#contPadre {
+  width: 100%;
+}
+#contTabla {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+#contInfo {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid black;
+}
+table {
+  width: 100%;
+}

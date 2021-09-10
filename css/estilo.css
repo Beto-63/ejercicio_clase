@@ -20,9 +20,13 @@ h1 {
 }
 
 #cuerpo {
+  border-color: black;
+  border-style: solid;
+  margin: 50px;
+  padding: 40px;
 }
 body {
-  margin: 0px;
+  background-color: aquamarine;
 }
 
 #contTexto {
@@ -42,6 +46,7 @@ body {
 }
 
 #contImagen img {
+  margin-top: 70px;
   margin-left: 50px;
 }
 
@@ -62,5 +67,5 @@ th {
   border: 1px solid black;
 }
 table {
-  width: 50%;
+  width: 100%;
 }

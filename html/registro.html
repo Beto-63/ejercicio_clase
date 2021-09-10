@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estiloregistro.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Escudo_f.png" alt="logo upb" />
+    </header>
+    <div id="contPadre">
+        <div id="contInfo">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <br />
+                <input requiered size=50 type="text" id="nombre" name="nombre" />
+                <br />
+                <label for="mail">e-Mail:</label>
+                <br />
+                <input requiered size=50 type="email" id="mail" name="mail" />
+                <br />
+                <label for="tele">Telefono</label>
+                <br />
+                <input requiered size=50 type="tel" id="tele" name="tele" />
+                <br />
+                <label for="uni">Universidad:</label>
+                <br />
+                <input requiered size=50 type="text" id="uni" name="uni" />
+                <br />
+                <br />
+                <label for="ciudades">Ciudades</label>
+                <select id="ciudades" name="cuidades">
+                    <option>Bogota</option>
+                    <option>Medellin</option>
+                    <option>Cali</option>
+                </select>
+                <br />
+                <br />
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        <div id="contTabla">
+            <table>
+                <!---fila---->
+                <tr>
+                    <!----Cabeceras---->
+                    <th>Nombre</th>
+                    <th>e-Mail</th>
+                    <th>Teléfono</th>
+                    <th>Universidad</th>
+                    <th>Ciudades</th>
+                </tr>
+                <!---fila---->
+                <tr>
+                    <!-----Columnas---->
+                    <td>Andres</td>
+                    <td>andres@gmail.com</td>
+                    <td>123456</td>
+                    <td>Catolica</td>
+                    <td>Bogota</td>
+                </tr>
+                <!---fila---->
+                <tr>
+                    <!-----Columnas---->
+                    <td>Juan</td>
+                    <td>juan@gmail.com</td>
+                    <td>9876543</td>
+                    <td>Nacional</td>
+                    <td>Medellin</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

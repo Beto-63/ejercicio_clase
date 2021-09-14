@@ -1,0 +1,35 @@
+#s1 div {
+  border: 1px solid green;
+  width: 300px;
+  display: inline-block;
+}
+
+#s2 p {
+  margin: 0px;
+}
+
+#s2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#s3 #parrafo1,
+#parrafo2,
+#parrafo3 {
+  font: size 0.8 em;
+}
+
+#s4 {
+  text-align: center;
+}
+
+#s4 div {
+  background-color: pink;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#s4 div:hover {
+  background-color: orange;
+}
